@@ -35,17 +35,18 @@ h1{
 
 h2{
     margin-bottom:15px;
+    font-size:clamp(30px, 8vw, 42px);
 }
 
 p{
-    font-size:18px;
+    font-size:clamp(16px, 4vw, 18px);
     line-height:1.6;
     margin-bottom:20px;
 }
 
 input{
-    width:220px;
-    padding:12px;
+    width:100%;
+    padding:15px;
     border:none;
     border-radius:30px;
     text-align:center;
@@ -54,7 +55,8 @@ input{
 }
 
 button{
-    padding:12px 30px;
+    padding:15px 30px;
+    width: 100%;
     border:none;
     border-radius:30px;
     background:#ff2e63;
@@ -210,4 +212,49 @@ transform:translateY(-400px);
 
 }
 
+}
+
+.glass{
+    width:90%;
+    max-width:420px;
+    padding:30px 20px;
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(20px);
+    border-radius:25px;
+    text-align:center;
+    color:white;
+    box-shadow:0 20px 50px rgba(0,0,0,.2);
+}
+
+@media (max-width:768px){
+
+    body{
+        padding:20px;
+    }
+
+    .glass{
+        width:100%;
+        padding:25px 18px;
+        border-radius:20px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    button{
+        font-size:17px;
+    }
+
+}
+
+.gallery img{
+    width:100%;
+    height:auto;
+    aspect-ratio:1/1;
+    object-fit:cover;
 }
