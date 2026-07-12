@@ -53,9 +53,9 @@ page.innerHTML = `
 
 <div class="gallery">
 
-<img src="images/photo1.jpeg">
+<img src="photo1.jpeg">
 
-<img src="images/photo2.jpeg">
+<img src="photo2.jpeg">
 
 <img src="photo3.jpeg">
 
