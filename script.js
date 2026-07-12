@@ -1,5 +1,5 @@
 // Change this to her birthday in DDMM format.
-// Example: 1306 = 13 June
+// Example: 1806 = 18 June
 const correctPassword = "1806";
 
 function checkPassword() {
