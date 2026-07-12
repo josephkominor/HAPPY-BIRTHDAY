@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<div id="lockScreen" class="container">
+
+<h2>🔒 A Special Surprise</h2>
+
+<p>Enter the date our relationshp was started (DDMM)</p>
+
+<input type="password" id="password" maxlength="4">
+
+<br><br>
+
+<button onclick="checkPassword()">Unlock ❤️</button>
+
+<p id="error"></p>
+
+</div>
+
+<div id="mainContent" style="display:none;">
+
+<h1>Happy Birthday Mand ❤️</h1>
+
+<h2>My First Love</h2>
+
+<p>
+Today is all about you.
+I hope your smile never fades and your dreams always come true✝️✨.
+</p>
+
+<button onclick="nextPage()">Continue ➜</button>
+
+
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="Edd_Sheeran_-_Perfect_(mp3.pm).mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn" onclick="toggleMusic()">🎵 Play Music</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
